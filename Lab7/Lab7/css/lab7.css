@@ -1,0 +1,57 @@
+/*****************************************************
+ * Lab 7
+ * CSCI 145
+ * Add selectors and rules to this file and 
+ * modify the accompanying HTML to create
+ * the style and layout described in the assignment.
+ *****************************************************/
+body{
+	margin: 0px;
+}
+
+#sidebar {
+	width: 33%;
+	height: 100%;
+	float: left;
+	background-color: #87cefa;
+	font-family: Verdana;
+}
+
+#main{
+	width: 67%;
+	height: 100%;
+	float: right;
+	font-family: Verdana;
+	box-sizing: content-box;
+}
+
+#head{
+	background-color: yellow;
+	width: 100%;
+	height: 100%;
+}
+
+#foot{
+	float: left;
+	background-color: yellow;
+	font-family: Verdana;
+	padding: 10px;
+	box-sizing: content-box;
+}
+#me {
+	height: 300px;
+	width: 300px;
+	float: left;
+	display: block;
+}
+h1{
+	font-family: Verdana;
+	text-align: center;
+}
+
+p{
+	padding: 3px;
+}
+
+#body{
+}

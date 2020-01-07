@@ -1,0 +1,71 @@
+/*
+    Modify this CSS (Cascading Style Sheets) file to style
+    the HTML page for Lab 3 to the specifications listed
+    on for the assignment. You won't need to change anything
+    in the HTML, but you will have to add some element selectors
+    and several style attributes to this CSS file. 
+    Notice that a couple elements (body and strong) already 
+    have some styles applied. Build on that by adding more.
+*/
+
+body {
+    padding: 2px 40px;
+    color: #555;
+    font-family: sans-serif;
+}
+
+strong {
+    font-size: large;
+}
+
+h1 {
+	font-family: sans-serif;
+	background-color: rgb(60,40,30);
+	text-align: center;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: sans-serif;
+	color: DarkRed;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+	font-size: 30px;
+}
+
+img{
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 10px;
+	border-color: rgb(60,40,30);
+	display: block;
+}
+
+body{
+	background-image: url('../images/labBkgd.jpg');
+	background-repeat: repeat;
+}
+
+ul li{
+	padding-bottom:10px;
+	
+}
+ul{
+	background-color:#f0f0ef;
+}
+p{
+	background-color:#f0f0ef
+}
+
+strong{
+	color: DarkRed;
+	font-family: italic;
+}
+
+a:hover{
+	color:white;
+	background-color: DarkBlue;
+	text-decoration:none;
+	text-transform: uppercase;
+}
